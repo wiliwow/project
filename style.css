@@ -1,0 +1,33 @@
+body
+{
+	background-color: rgb(108, 105, 105);
+}
+
+li
+{
+	list-style-type: none;
+}
+
+.navigation_image
+{
+	height: 20%;
+	width: 20%;
+}
+
+.container
+{
+	border: 3px 3px solid white;
+	background-color: grey;
+	display: flex;
+}
+
+li
+{
+	padding: 20px;
+	margin: 20px;
+}
+
+.search
+{
+
+}
