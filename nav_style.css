@@ -1,0 +1,56 @@
+body
+{
+	background-color: rgb(108, 105, 105);
+}
+
+.pimage
+{
+	text-align: center;
+}
+
+.navigation_image
+{
+	height: 50%;
+	width: 50%;
+	justify-content: center;
+
+	transition: transform 0.3s;
+}
+
+.navigation_image:hover 
+{
+	transform: translateY(-5px);
+}
+
+#container
+{
+	border: 3px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    background-color: grey;
+	padding: 0px;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+.search
+{
+	border: 0px solid white;
+	border-radius: 10px;
+	height: 50px;
+	width: 250px;
+}
+
+input[type = text]
+{
+	padding-left: 20px;
+}
