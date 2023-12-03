@@ -1,0 +1,55 @@
+.tutoyoutube-line1
+{
+    display: flex;
+    margin: 2.5%;
+    padding: 1%;
+
+}
+
+.tutoyoutube-colum1 {
+    width: 41%;
+    border-radius: 20px;
+    border: 3px solid rgb(140, 140, 140);
+}
+
+.tutoYoutubeImage {
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-bottom: 3px solid rgb(140, 140, 140);
+
+}
+
+figcaption {
+    margin: 5%;
+    padding: 3%;
+}
+
+.Image {
+    display: block;
+    padding: 10%;
+    margin: auto;
+    width: 25%;
+}
+
+.language1 {
+    width: 25%;
+    margin: 5%;
+    padding: 1%;
+    border: 3px solid rgb(140, 140, 140);
+}
+
+.languageRepertory{
+
+}
+
+.language1 figcaption{
+
+}
+
+.tutoyoutube-line1 button {
+    display: block;
+    margin: auto;
+    padding: 1%;
+    color: #6c6969;
+}
