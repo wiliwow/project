@@ -16,13 +16,17 @@
     display: block;
     width: 50%;
     margin: auto;
-    border-bottom: 3px solid rgb(140, 140, 140);
+    padding: 5%;
+}
 
+.tutoyoutube-colum1 figcaption{
+    border-top: rgb(140, 140, 140);
 }
 
 figcaption {
     margin: 5%;
     padding: 3%;
+    white-space: normal;
 }
 
 .Image {
@@ -39,17 +43,56 @@ figcaption {
     border: 3px solid rgb(140, 140, 140);
 }
 
-.languageRepertory{
-
-}
-
-.language1 figcaption{
-
-}
-
 .tutoyoutube-line1 button {
     display: block;
     margin: auto;
     padding: 1%;
-    color: #6c6969;
+    background-color: #001514;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    -webkit-text-fill-color: white;
+}
+
+.tutoyoutube-1Tuto button{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tutoyoutube-JSFullCourse button {
+    display: block;
+    margin: auto;
+    padding: 1%;
+    background-color: #001514;
+    text-decoration: none;
+}
+
+.tutoyoutube-1Tuto {
+    margin: 3%;
+    padding: 1%;
+    width: 33%;
+    border: 3px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    position: relative;
+}
+
+.tutoyoutube-JSFullCourse {
+    display: flex;
+}
+
+.tutoyoutube-JSFullCourse figcaption {
+    border-top: 3px solid rgb(140, 140, 140);
+}
+
+.tutoyoutube-1Tuto{
+    margin: 3%;
+    padding: 1%;
+    width: 33%;
+    border: 3px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    position: relative;
 }
